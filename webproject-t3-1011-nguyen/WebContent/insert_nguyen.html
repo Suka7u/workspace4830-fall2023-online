@@ -1,0 +1,63 @@
+<html>
+<head>
+<style>
+header {
+    background-color: #3A5311;
+    color:white;
+    text-align:center;
+    padding:5px;	 
+}
+nav {
+    line-height:30px;
+    background-color: #99EDC3;
+    height:300px;
+    width:100px;
+    float:left;
+    padding:5px;	      
+}
+section {
+    width:350px;
+    float:left;
+    padding:10px;	 	 
+}
+footer {
+    background-color:#3A5311;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;	 	 
+}
+</style>
+</head>
+
+<body>
+<header>
+<h1> Insert Data </h1>
+</header>
+
+<nav>
+<a href="/webproject-t3-1011-nguyen/search_nguyen.html">Search Team</a> <br>
+<a href="/webproject-t3-1011-nguyen/search_region_nguyen.html">Search Region</a> <br>
+</nav>
+
+<section>
+	<h1>Input Data</h1>
+	
+	<form action="InsertNguyen" method="POST">
+	
+		Team Name: <input type="text" name="teamName"> <br />
+		Player 1: <input type="text" name="player1"> <br />
+		Player 2: <input type="text" name="player2"> <br />
+		Player 3: <input type="text" name="player3"> <br />
+		Region: <input type="text" name="region"> <br />
+		
+		<input type="submit" value="Submit" />
+	</form>
+
+</section>
+
+<footer>
+Copyright (c) 2023 by NGUYEN
+</footer>
+</body>
+</html>
